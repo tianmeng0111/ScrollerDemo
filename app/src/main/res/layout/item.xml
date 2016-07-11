@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tm.example.scrollerdemo.view.SlidingMenuLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/smlayout">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        android:text="name"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:drawableLeft="@mipmap/user"/>
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="#786dfeed"
+            android:gravity="center"
+            android:text="edit"/>
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="#78eda352"
+            android:gravity="center"
+            android:text="delete"/>
+    </LinearLayout>
+
+
+</com.tm.example.scrollerdemo.view.SlidingMenuLayout>
